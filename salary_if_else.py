@@ -4,7 +4,7 @@ salary = int(input("Enter your salary: "))
 if salary > 2000:
     tax = salary * 25 / 100
 else:
-    tax = salary * 15 /100
+    tax = salary * 15 / 100
 
 net_salary = salary - tax
 print("============ Your Salary Review ============")
