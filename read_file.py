@@ -1,7 +1,7 @@
 f_read = open("data.txt", "r")
 f_write = open("data2.txt", "w")
 find = input("What are you looking for?: ")
-replace = input("replace with: ")
+replace = input("Replace with: ")
 
 for data in f_read:
     i = 0
