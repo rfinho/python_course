@@ -11,4 +11,5 @@ def maxName(text):
     print(max(words, key=len))
 
 
-maxName("hello my friend")
+input_text = input("Enter your message ot find longets word: ")
+maxName(input_text)
