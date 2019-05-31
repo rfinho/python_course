@@ -11,5 +11,5 @@ def maxName(text):
     print(max(words, key=len))
 
 
-input_text = input("Enter your message ot find longets word: ")
+input_text = input("Enter your message to find longest word: ")
 maxName(input_text)
